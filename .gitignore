@@ -1,31 +1,19 @@
-# Python-specific
+# Ignore compiled Python files
+*.pyc
 __pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
 
-# Virtual environment and package management
+# Ignore virtual environment directory
 .venv/
-env/
-venv/
-*.dist-info/
 
-# IDE and editor-specific
+# Ignore IDE-specific files
 .idea/
+.vscode/
 *.sublime-project
 *.sublime-workspace
-.vscode/
 
-# Build, packaging, and distribution
-dist/
-build/
-*.egg
-
-# Operating system and file manager
-.DS_Store
-Thumbs.db
-
-# Other project-specific files
+# Ignore log files
 *.log
-*.db
+
+# Ignore database files
 *.sqlite
+*.db
