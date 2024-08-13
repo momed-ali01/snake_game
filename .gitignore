@@ -1,0 +1,31 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environment and package management
+.venv/
+env/
+venv/
+*.dist-info/
+
+# IDE and editor-specific
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Build, packaging, and distribution
+dist/
+build/
+*.egg
+
+# Operating system and file manager
+.DS_Store
+Thumbs.db
+
+# Other project-specific files
+*.log
+*.db
+*.sqlite
